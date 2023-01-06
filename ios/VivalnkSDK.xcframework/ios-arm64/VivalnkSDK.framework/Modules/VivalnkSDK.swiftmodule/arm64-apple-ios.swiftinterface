@@ -1,0 +1,422 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VivalnkSDK
+import Compression
+import CoreBluetooth
+import CoreFoundation
+import Dispatch
+import Foundation
+import Swift
+@_exported import VivalnkSDK
+import _Concurrency
+@_hasMissingDesignatedInitializers @objc open class VVDFUFirmwareSize : ObjectiveC.NSObject {
+  @objc open var softdevice: Swift.UInt32 {
+    get
+  }
+  @objc open var bootloader: Swift.UInt32 {
+    get
+  }
+  @objc open var application: Swift.UInt32 {
+    get
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class VVIntelHex2BinConverter : ObjectiveC.NSObject {
+  public static func convert(_ hex: Foundation.Data, mbrSize: Swift.UInt32 = 0) -> Foundation.Data?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum VVLogLevel : Swift.Int {
+  case debug = 0
+  case verbose = 1
+  case info = 5
+  case application = 10
+  case warning = 15
+  case error = 20
+  public func name() -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol VVLoggerDelegate {
+  @objc func logWith(_ level: VivalnkSDK.VVLogLevel, message: Swift.String)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class VVDFUServiceController : ObjectiveC.NSObject {
+  @objc public func pause()
+  @objc public func resume()
+  @objc public func abort() -> Swift.Bool
+  @objc public func restart()
+  @objc public var paused: Swift.Bool {
+    @objc get
+  }
+  @objc public var aborted: Swift.Bool {
+    @objc get
+  }
+  @objc deinit
+}
+@objc public enum VVDFUError : Swift.Int {
+  case remoteLegacyDFUSuccess = 1
+  case remoteLegacyDFUInvalidState = 2
+  case remoteLegacyDFUNotSupported = 3
+  case remoteLegacyDFUDataExceedsLimit = 4
+  case remoteLegacyDFUCrcError = 5
+  case remoteLegacyDFUOperationFailed = 6
+  case remoteSecureDFUSuccess = 11
+  case remoteSecureDFUOpCodeNotSupported = 12
+  case remoteSecureDFUInvalidParameter = 13
+  case remoteSecureDFUInsufficientResources = 14
+  case remoteSecureDFUInvalidObject = 15
+  case remoteSecureDFUSignatureMismatch = 16
+  case remoteSecureDFUUnsupportedType = 17
+  case remoteSecureDFUOperationNotPermitted = 18
+  case remoteSecureDFUOperationFailed = 20
+  case remoteSecureDFUExtendedError = 21
+  case remoteExtendedErrorWrongCommandFormat = 22
+  case remoteExtendedErrorUnknownCommand = 23
+  case remoteExtendedErrorInitCommandInvalid = 24
+  case remoteExtendedErrorFwVersionFailure = 25
+  case remoteExtendedErrorHwVersionFailure = 26
+  case remoteExtendedErrorSdVersionFailure = 27
+  case remoteExtendedErrorSignatureMissing = 28
+  case remoteExtendedErrorWrongHashType = 29
+  case remoteExtendedErrorHashFailed = 30
+  case remoteExtendedErrorWrongSignatureType = 31
+  case remoteExtendedErrorVerificationFailed = 32
+  case remoteExtendedErrorInsufficientSpace = 33
+  case remoteExperimentalButtonlessDFUSuccess = 9001
+  case remoteExperimentalButtonlessDFUOpCodeNotSupported = 9002
+  case remoteExperimentalButtonlessDFUOperationFailed = 9004
+  case remoteButtonlessDFUSuccess = 91
+  case remoteButtonlessDFUOpCodeNotSupported = 92
+  case remoteButtonlessDFUOperationFailed = 94
+  case fileNotSpecified = 101
+  case fileInvalid = 102
+  case extendedInitPacketRequired = 103
+  case initPacketRequired = 104
+  case failedToConnect = 201
+  case deviceDisconnected = 202
+  case bluetoothDisabled = 203
+  case serviceDiscoveryFailed = 301
+  case deviceNotSupported = 302
+  case readingVersionFailed = 303
+  case enablingControlPointFailed = 304
+  case writingCharacteristicFailed = 305
+  case receivingNotificationFailed = 306
+  case unsupportedResponse = 307
+  case bytesLost = 308
+  case crcError = 309
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum VVDFUState : Swift.Int {
+  case connecting
+  case starting
+  case enablingDfuMode
+  case uploading
+  case validating
+  case disconnecting
+  case completed
+  case aborted
+  public func description() -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol VVDFUProgressDelegate {
+  @objc func dfuProgressDidChange(for part: Swift.Int, outOf totalParts: Swift.Int, to progress: Swift.Int, currentSpeedBytesPerSecond: Swift.Double, avgSpeedBytesPerSecond: Swift.Double)
+}
+@objc public protocol VVDFUServiceDelegate {
+  @objc func dfuStateDidChange(to state: VivalnkSDK.VVDFUState)
+  @objc func dfuError(_ error: VivalnkSDK.VVDFUError, didOccurWithMessage message: Swift.String)
+}
+public typealias CRC32 = Swift.UInt32
+public typealias Consumer = (_ data: Foundation.Data) throws -> Swift.Void
+public typealias Provider = (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data
+public var crcTable: [Swift.UInt32]
+extension Foundation.Data {
+  public func crc32(checksum: VivalnkSDK.CRC32) -> VivalnkSDK.CRC32
+  public static func compress(size: Swift.Int, bufferSize: Swift.Int, provider: (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> VivalnkSDK.CRC32
+  public static func decompress(size: Swift.Int, bufferSize: Swift.Int, skipCRC32: Swift.Bool, provider: (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> VivalnkSDK.CRC32
+}
+public var defaultReadChunkSize: Swift.UInt32
+public var defaultWriteChunkSize: Swift.UInt32
+public var defaultFilePermissions: Swift.UInt16
+public var defaultDirectoryPermissions: Swift.UInt16
+public enum CompressionMethod : Swift.UInt16 {
+  case none
+  case deflate
+  public init?(rawValue: Swift.UInt16)
+  public typealias RawValue = Swift.UInt16
+  public var rawValue: Swift.UInt16 {
+    get
+  }
+}
+final public class VVArchive : Swift.Sequence {
+  public enum VVArchiveError : Swift.Error {
+    case unreadableArchive
+    case unwritableArchive
+    case invalidEntryPath
+    case invalidCompressionMethod
+    case invalidStartOfCentralDirectoryOffset
+    case missingEndOfCentralDirectoryRecord
+    case cancelledOperation
+    public static func == (a: VivalnkSDK.VVArchive.VVArchiveError, b: VivalnkSDK.VVArchive.VVArchiveError) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum VVAccessMode : Swift.UInt {
+    case create
+    case read
+    case update
+    public init?(rawValue: Swift.UInt)
+    public typealias RawValue = Swift.UInt
+    public var rawValue: Swift.UInt {
+      get
+    }
+  }
+  final public let url: Foundation.URL
+  final public let accessMode: VivalnkSDK.VVArchive.VVAccessMode
+  public init?(url: Foundation.URL, accessMode mode: VivalnkSDK.VVArchive.VVAccessMode, preferredEncoding: Swift.String.Encoding? = nil)
+  public init?(data: Foundation.Data = Data(), accessMode mode: VivalnkSDK.VVArchive.VVAccessMode, preferredEncoding: Swift.String.Encoding? = nil)
+  @objc deinit
+  final public func makeIterator() -> Swift.AnyIterator<VivalnkSDK.VVEntry>
+  final public subscript(path: Swift.String) -> VivalnkSDK.VVEntry? {
+    get
+  }
+  public typealias Element = VivalnkSDK.VVEntry
+  public typealias Iterator = Swift.AnyIterator<VivalnkSDK.VVEntry>
+}
+extension VivalnkSDK.VVArchive {
+  final public func totalUnitCountForRemoving(_ entry: VivalnkSDK.VVEntry) -> Swift.Int64
+  final public func totalUnitCountForReading(_ entry: VivalnkSDK.VVEntry) -> Swift.Int64
+  final public func totalUnitCountForAddingItem(at url: Foundation.URL) -> Swift.Int64
+}
+public struct VVEntry : Swift.Equatable {
+  public enum EntryType : Swift.Int {
+    case file
+    case directory
+    case symlink
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public func path(using encoding: Swift.String.Encoding) -> Swift.String
+  public var path: Swift.String {
+    get
+  }
+  public var fileAttributes: [Foundation.FileAttributeKey : Any] {
+    get
+  }
+  public var checksum: VivalnkSDK.CRC32 {
+    get
+  }
+  public var type: VivalnkSDK.VVEntry.EntryType {
+    get
+  }
+  public var compressedSize: Swift.Int {
+    get
+  }
+  public var uncompressedSize: Swift.Int {
+    get
+  }
+  public static func == (lhs: VivalnkSDK.VVEntry, rhs: VivalnkSDK.VVEntry) -> Swift.Bool
+}
+@objc public enum VVDFUFirmwareType : Swift.UInt8 {
+  case softdevice = 1
+  case bootloader = 2
+  case application = 4
+  case softdeviceBootloader = 3
+  case softdeviceBootloaderApplication = 7
+  public init?(rawValue: Swift.UInt8)
+  public typealias RawValue = Swift.UInt8
+  public var rawValue: Swift.UInt8 {
+    get
+  }
+}
+@objc public class VVDFUFirmware : ObjectiveC.NSObject {
+  @objc final public let fileName: Swift.String?
+  @objc final public let fileUrl: Foundation.URL?
+  @objc public var valid: Swift.Bool {
+    @objc get
+  }
+  @objc public var size: VivalnkSDK.VVDFUFirmwareSize {
+    @objc get
+  }
+  @objc public var parts: Swift.Int {
+    @objc get
+  }
+  @objc public convenience init?(urlToZipFile: Foundation.URL)
+  @objc public init?(urlToZipFile: Foundation.URL, type: VivalnkSDK.VVDFUFirmwareType)
+  @objc public convenience init?(zipFile: Foundation.Data)
+  @objc public init?(zipFile: Foundation.Data, type: VivalnkSDK.VVDFUFirmwareType)
+  @objc public init?(urlToBinOrHexFile: Foundation.URL, urlToDatFile: Foundation.URL?, type: VivalnkSDK.VVDFUFirmwareType)
+  @objc public init?(binFile: Foundation.Data, datFile: Foundation.Data?, type: VivalnkSDK.VVDFUFirmwareType)
+  @objc public init?(hexFile: Foundation.Data, datFile: Foundation.Data?, type: VivalnkSDK.VVDFUFirmwareType)
+  @objc deinit
+}
+extension VivalnkSDK.VVArchive {
+  final public func addEntry(with path: Swift.String, relativeTo baseURL: Foundation.URL, compressionMethod: VivalnkSDK.CompressionMethod = .none, bufferSize: Swift.UInt32 = defaultWriteChunkSize, progress: Foundation.Progress? = nil) throws
+  final public func addEntry(with path: Swift.String, type: VivalnkSDK.VVEntry.EntryType, uncompressedSize: Swift.UInt32, modificationDate: Foundation.Date = Date(), permissions: Swift.UInt16? = nil, compressionMethod: VivalnkSDK.CompressionMethod = .none, bufferSize: Swift.UInt32 = defaultWriteChunkSize, progress: Foundation.Progress? = nil, provider: (_ position: Swift.Int, _ size: Swift.Int) throws -> Foundation.Data) throws
+  final public func remove(_ entry: VivalnkSDK.VVEntry, bufferSize: Swift.UInt32 = defaultReadChunkSize, progress: Foundation.Progress? = nil) throws
+}
+extension VivalnkSDK.VVArchive {
+  final public func extract(_ entry: VivalnkSDK.VVEntry, to url: Foundation.URL, bufferSize: Swift.UInt32 = defaultReadChunkSize, skipCRC32: Swift.Bool = false, progress: Foundation.Progress? = nil) throws -> VivalnkSDK.CRC32
+  final public func extract(_ entry: VivalnkSDK.VVEntry, bufferSize: Swift.UInt32 = defaultReadChunkSize, skipCRC32: Swift.Bool = false, progress: Foundation.Progress? = nil, consumer: (_ data: Foundation.Data) throws -> Swift.Void) throws -> VivalnkSDK.CRC32
+}
+extension Foundation.FileManager {
+  public func zipItem(at sourceURL: Foundation.URL, to destinationURL: Foundation.URL, shouldKeepParent: Swift.Bool = true, compressionMethod: VivalnkSDK.CompressionMethod = .none, progress: Foundation.Progress? = nil) throws
+  public func unzipItem(at sourceURL: Foundation.URL, to destinationURL: Foundation.URL, skipCRC32: Swift.Bool = false, progress: Foundation.Progress? = nil, preferredEncoding: Swift.String.Encoding? = nil) throws
+}
+extension Foundation.URL {
+  public func isContained(in parentDirectoryURL: Foundation.URL) -> Swift.Bool
+}
+@objc public protocol VVDFUPeripheralSelectorDelegate {
+  @objc func select(_ peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Swift.AnyObject], RSSI: Foundation.NSNumber, hint name: Swift.String?) -> Swift.Bool
+  @objc func filterBy(hint dfuServiceUUID: CoreBluetooth.CBUUID) -> [CoreBluetooth.CBUUID]?
+}
+@_inheritsConvenienceInitializers @objc public class VVSecureDFUServiceInitiator : VivalnkSDK.VVDFUServiceInitiator {
+  @objc override public func start(targetWithIdentifier uuid: Foundation.UUID) -> VivalnkSDK.VVDFUServiceController?
+  @objc override public init(centralManager: CoreBluetooth.CBCentralManager, target: CoreBluetooth.CBPeripheral)
+  @objc override public init(queue: Dispatch.DispatchQueue? = nil, delegateQueue: Dispatch.DispatchQueue = super, progressQueue: Dispatch.DispatchQueue = super, loggerQueue: Dispatch.DispatchQueue = super)
+  @objc deinit
+}
+extension VivalnkSDK.VVArchive {
+  final public var data: Foundation.Data? {
+    get
+  }
+}
+@objc public enum VVDFUUuidType : Swift.Int {
+  case legacyService = 0
+  case legacyControlPoint = 1
+  case legacyPacket = 2
+  case legacyVersion = 3
+  case secureService = 4
+  case secureControl = 5
+  case securePacket = 6
+  case buttonlessService = 7
+  case buttonlessCharacteristic = 8
+  case buttonlessWithoutBondSharing = 9
+  case buttonlessWithBondSharing = 10
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class VVDFUUuid : ObjectiveC.NSObject {
+  @objc final public let uuid: CoreBluetooth.CBUUID
+  @objc final public let type: VivalnkSDK.VVDFUUuidType
+  @objc public init(withUUID: CoreBluetooth.CBUUID, forType: VivalnkSDK.VVDFUUuidType)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class VVDFUUuidHelper : ObjectiveC.NSObject {
+  @objc public var legacyDFUService: CoreBluetooth.CBUUID {
+    get
+  }
+  @objc public var legacyDFUControlPoint: CoreBluetooth.CBUUID {
+    get
+  }
+  @objc public var legacyDFUPacket: CoreBluetooth.CBUUID {
+    get
+  }
+  @objc public var legacyDFUVersion: CoreBluetooth.CBUUID {
+    get
+  }
+  @objc public var secureDFUService: CoreBluetooth.CBUUID {
+    get
+  }
+  @objc public var secureDFUControlPoint: CoreBluetooth.CBUUID {
+    get
+  }
+  @objc public var secureDFUPacket: CoreBluetooth.CBUUID {
+    get
+  }
+  @objc public var buttonlessExperimentalService: CoreBluetooth.CBUUID {
+    get
+  }
+  @objc public var buttonlessExperimentalCharacteristic: CoreBluetooth.CBUUID {
+    get
+  }
+  @objc public var buttonlessWithoutBonds: CoreBluetooth.CBUUID {
+    get
+  }
+  @objc public var buttonlessWithBonds: CoreBluetooth.CBUUID {
+    get
+  }
+  @objc override dynamic public init()
+  @objc public convenience init(customUuids uuids: [VivalnkSDK.VVDFUUuid])
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class VVDFUPeripheralSelector : ObjectiveC.NSObject, VivalnkSDK.VVDFUPeripheralSelectorDelegate {
+  @objc open func select(_ peripheral: CoreBluetooth.CBPeripheral, advertisementData: [Swift.String : Swift.AnyObject], RSSI: Foundation.NSNumber, hint name: Swift.String? = nil) -> Swift.Bool
+  @objc open func filterBy(hint dfuServiceUUID: CoreBluetooth.CBUUID) -> [CoreBluetooth.CBUUID]?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol VVDataConvertible {
+  static func + (lhs: Foundation.Data, rhs: Self) -> Foundation.Data
+  static func += (lhs: inout Foundation.Data, rhs: Self)
+}
+extension VivalnkSDK.VVDataConvertible {
+  public static func + (lhs: Foundation.Data, rhs: Self) -> Foundation.Data
+  public static func += (lhs: inout Foundation.Data, rhs: Self)
+}
+extension Swift.UInt8 : VivalnkSDK.VVDataConvertible {
+}
+extension Swift.UInt16 : VivalnkSDK.VVDataConvertible {
+}
+extension Swift.UInt32 : VivalnkSDK.VVDataConvertible {
+}
+extension Swift.Int : VivalnkSDK.VVDataConvertible {
+}
+extension Swift.Float : VivalnkSDK.VVDataConvertible {
+}
+extension Swift.Double : VivalnkSDK.VVDataConvertible {
+}
+extension Swift.String : VivalnkSDK.VVDataConvertible {
+  public static func + (lhs: Foundation.Data, rhs: Swift.String) -> Foundation.Data
+}
+extension Foundation.Data : VivalnkSDK.VVDataConvertible {
+  public static func + (lhs: Foundation.Data, rhs: Foundation.Data) -> Foundation.Data
+}
+@objc public class VVDFUServiceInitiator : ObjectiveC.NSObject {
+  @objc weak public var delegate: VivalnkSDK.VVDFUServiceDelegate?
+  @objc weak public var progressDelegate: VivalnkSDK.VVDFUProgressDelegate?
+  @objc weak public var logger: VivalnkSDK.VVLoggerDelegate?
+  @objc public var peripheralSelector: VivalnkSDK.VVDFUPeripheralSelectorDelegate
+  @objc public var packetReceiptNotificationParameter: Swift.UInt16
+  @objc public var forceDfu: Swift.Bool
+  @objc public var forceScanningForNewAddressInLegacyDfu: Swift.Bool
+  @objc public var connectionTimeout: Swift.Double
+  @objc public var dataObjectPreparationDelay: Swift.Double
+  @objc public var alternativeAdvertisingNameEnabled: Swift.Bool
+  @objc public var alternativeAdvertisingName: Swift.String?
+  @objc public var enableUnsafeExperimentalButtonlessServiceInSecureDfu: Swift.Bool
+  @objc public var uuidHelper: VivalnkSDK.VVDFUUuidHelper
+  @objc public var disableResume: Swift.Bool
+  @objc public init(centralManager: CoreBluetooth.CBCentralManager, target: CoreBluetooth.CBPeripheral)
+  @objc public init(queue: Dispatch.DispatchQueue? = nil, delegateQueue: Dispatch.DispatchQueue = DispatchQueue.main, progressQueue: Dispatch.DispatchQueue = DispatchQueue.main, loggerQueue: Dispatch.DispatchQueue = DispatchQueue.main)
+  @objc public func with(firmware file: VivalnkSDK.VVDFUFirmware) -> VivalnkSDK.VVDFUServiceInitiator
+  @available(*, deprecated, message: "Use start(target: CBPeripheral) instead.")
+  @objc public func start() -> VivalnkSDK.VVDFUServiceController?
+  @objc public func start(target: CoreBluetooth.CBPeripheral) -> VivalnkSDK.VVDFUServiceController?
+  @objc public func start(targetWithIdentifier uuid: Foundation.UUID) -> VivalnkSDK.VVDFUServiceController?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class VVLegacyDFUServiceInitiator : VivalnkSDK.VVDFUServiceInitiator {
+  @objc override public func start(targetWithIdentifier uuid: Foundation.UUID) -> VivalnkSDK.VVDFUServiceController?
+  @objc override public init(centralManager: CoreBluetooth.CBCentralManager, target: CoreBluetooth.CBPeripheral)
+  @objc override public init(queue: Dispatch.DispatchQueue? = nil, delegateQueue: Dispatch.DispatchQueue = super, progressQueue: Dispatch.DispatchQueue = super, loggerQueue: Dispatch.DispatchQueue = super)
+  @objc deinit
+}
