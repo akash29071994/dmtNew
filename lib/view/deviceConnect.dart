@@ -32,10 +32,14 @@ class _DeviceConnectState extends State<DeviceConnect> {
   String _selectedDevices = "";
   bool flag = true;
   Timer? timer;
+  bool isIntCall = true;
 
 
   static const platform = MethodChannel('com.dmt.patientapp/device');
   late FlutterBluePlus flutterBlue;
+
+
+
 
   @override
   Future<void> didChangeDependencies() async {
@@ -55,6 +59,27 @@ class _DeviceConnectState extends State<DeviceConnect> {
       ].request();
     }
 
+
+
+    if(isIntCall) {
+      if (Platform.isAndroid) {
+        print("Platform.isAndroid.....${Platform.isAndroid}");
+        try {
+          bool init = await platform.invokeMethod('init', _selectedDevices);
+        } on PlatformException catch (e) {
+          print("some thing was: '${e.message}'.");
+        }
+      } else if (Platform.isIOS) {
+        try {
+          bool init = await platform.invokeMethod('init', _selectedDevices);
+        } on PlatformException catch (e) {
+          print("some thing was: '${e.message}'.");
+        }
+      }
+      setState(() {
+        isIntCall = false;
+      });
+    }
 
 
     flutterBlue = FlutterBluePlus.instance;
@@ -323,33 +348,17 @@ class _DeviceConnectState extends State<DeviceConnect> {
       for (ScanResult r in results) {
 
 
-          // if(r.device.name.startsWith("O2")) {
-          //   deviceslist.add(r.device.name);
-          //   deviceslist = deviceslist.toSet().toList();
-          // }
-        deviceslist.add('${r.device.id} ${r.device.name}');
-        deviceslist = deviceslist.toSet().toList();
-
+          if(r.device.name.startsWith("O2")) {
+            deviceslist.add(r.device.name);
+            deviceslist = deviceslist.toSet().toList();
+          }
         print('${r.device.id} found! rssi: TYPE ${r.device.type.name} ');
         print('${r.device.name} found! rssi: ${r.rssi} ');
       }
     });
     setState(() {});
     flutterBlue.stopScan();
-    if(Platform.isAndroid){
-      print("Platform.isAndroid.....${Platform.isAndroid}");
-      try{
-        bool init= await platform.invokeMethod('init',_selectedDevices);
-      }on PlatformException catch (e) {
-        print("some thing was: '${e.message}'.");
-      }
-    }else if(Platform.isIOS){
-      try{
-        bool init= await platform.invokeMethod('init',_selectedDevices);
-      }on PlatformException catch (e) {
-        print("some thing was: '${e.message}'.");
-      }
-    }
+
     if(deviceslist.length > 0){
       deviceScan = true;
     }

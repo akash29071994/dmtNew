@@ -3,7 +3,6 @@
     package="com.dmt.patientapp"
     minSdkVersion="19"
     targetSdkVersion="33"
-    shrinking="true"
     mergedManifest="/Users/akashrana/Documents/Client project/keyurbhai/dmt/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
     proguardFiles="/Users/akashrana/Documents/Client project/keyurbhai/dmt/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.1.2:/Users/akashrana/Documents/Softwere/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
     partialResultsDir="/Users/akashrana/Documents/Client project/keyurbhai/dmt/build/app/intermediates/lint_vital_partial_results/release/out">

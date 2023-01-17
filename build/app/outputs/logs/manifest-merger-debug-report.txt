@@ -1,36 +1,34 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:26:5-66:19
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:32:5-53:19
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:32:5-53:19
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:49:5-74:19
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:49:5-74:19
+INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:43:5-82:19
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:46:5-71:19
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:46:5-71:19
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:51:5-74:19
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:51:5-74:19
 MERGED from [:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
 MERGED from [:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-14:19
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:24:5-49:19
+MERGED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:24:5-49:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
-MERGED from [com.github.tbruyelle:rxpermissions:0.12] /Users/akashrana/.gradle/caches/transforms-3/9238e724b54f979d1dc42d9a48ac1cff/transformed/jetified-rxpermissions-0.12/AndroidManifest.xml:9:5-20
-MERGED from [com.github.tbruyelle:rxpermissions:0.12] /Users/akashrana/.gradle/caches/transforms-3/9238e724b54f979d1dc42d9a48ac1cff/transformed/jetified-rxpermissions-0.12/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.material:material:1.3.0] /Users/akashrana/.gradle/caches/transforms-3/8c09bec62be409fe572343fe4d451870/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.3.0] /Users/akashrana/.gradle/caches/transforms-3/8c09bec62be409fe572343fe4d451870/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/akashrana/.gradle/caches/transforms-3/7eb911bbc698fb30327142cdd89e5775/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/akashrana/.gradle/caches/transforms-3/7eb911bbc698fb30327142cdd89e5775/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.6.0] /Users/akashrana/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] /Users/akashrana/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/akashrana/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/akashrana/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/akashrana/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/akashrana/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] /Users/akashrana/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.8.0] /Users/akashrana/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:name
 		INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-80:12
-INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-80:12
-INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-80:12
-INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-80:12
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-80:12
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:2:1-55:12
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:23:1-76:12
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-96:12
+INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-96:12
+INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-96:12
+INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-96:12
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-96:12
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:23:1-73:12
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:2:1-76:12
 MERGED from [:shared_preferences_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:permission_handler_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-31:12
@@ -39,206 +37,240 @@ MERGED from [:flutter_plugin_android_lifecycle] /Users/akashrana/Documents/Clien
 MERGED from [:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
 MERGED from [:path_provider_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/akashrana/.gradle/caches/transforms-3/1084b997db70f9a41dbd052c2dbf83ed/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
-MERGED from [com.github.tbruyelle:rxpermissions:0.12] /Users/akashrana/.gradle/caches/transforms-3/9238e724b54f979d1dc42d9a48ac1cff/transformed/jetified-rxpermissions-0.12/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.core:core-ktx:1.5.0] /Users/akashrana/.gradle/caches/transforms-3/70c259ae05e613c349a48c3b9bfb9ed3/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.material:material:1.3.0] /Users/akashrana/.gradle/caches/transforms-3/8c09bec62be409fe572343fe4d451870/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/akashrana/.gradle/caches/transforms-3/7eb911bbc698fb30327142cdd89e5775/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/akashrana/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [no.nordicsemi.android:dfu:1.11.1] /Users/akashrana/.gradle/caches/transforms-3/bf3d6e1f5a827a774efafea08edd29b7/transformed/jetified-dfu-1.11.1/AndroidManifest.xml:2:1-15:12
+MERGED from [no.nordicsemi.android:dfu:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/5c62f9541241304317846e9bc57f06d9/transformed/jetified-dfu-2.1.0/AndroidManifest.xml:2:1-53:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/akashrana/.gradle/caches/transforms-3/27810fa37225a473db88d76a0d5f9d87/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
-MERGED from [com.tencent:mmkv-static:1.2.9] /Users/akashrana/.gradle/caches/transforms-3/938276ac7e0b6c98de17fefd33101249/transformed/jetified-mmkv-static-1.2.9/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.room:room-runtime:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/14c72724844728ce1b2aeff0f19ab904/transformed/room-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [no.nordicsemi.android:ble-common:2.2.4] /Users/akashrana/.gradle/caches/transforms-3/9260fbc9081c857b44636b0e39169424/transformed/jetified-ble-common-2.2.4/AndroidManifest.xml:2:1-10:12
-MERGED from [no.nordicsemi.android:ble:2.2.4] /Users/akashrana/.gradle/caches/transforms-3/c42035a32ad1625f40f723207851a632/transformed/jetified-ble-2.2.4/AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/c564864b85a0960493dadaf97ef781d3/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.4] /Users/akashrana/.gradle/caches/transforms-3/b22ca91cb7e5836c5d78d9336476da77/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.3] /Users/akashrana/.gradle/caches/transforms-3/dacc4c7ea63694108385a92c014f7edb/transformed/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/akashrana/.gradle/caches/transforms-3/0c64aa0e9f5f460bf794068f60e50a1e/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/2fce982de6bcb65312b126b72c128883/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/e7b09f39a842df5984e53de23e58c27f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/0524663abfa43c71322819f8b68635f2/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /Users/akashrana/.gradle/caches/transforms-3/409e08e34bc80ce2fd2e7bb1ddb7bcf7/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/eba3ac105ce1a200b5302334a4f79c0c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/86da411e3ef3e48ed679a69941c8410e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.tencent:mmkv-static:1.2.11] /Users/akashrana/.gradle/caches/transforms-3/191bcbbbfa85479ffe56e79c8db11b0d/transformed/jetified-mmkv-static-1.2.11/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:17:1-31:12
+MERGED from [no.nordicsemi.android:ble-common:2.5.1] /Users/akashrana/.gradle/caches/transforms-3/b9c5e4b293ac3322dae2579d21d790f9/transformed/jetified-ble-common-2.5.1/AndroidManifest.xml:2:1-9:12
+MERGED from [no.nordicsemi.android:ble:2.5.1] /Users/akashrana/.gradle/caches/transforms-3/058146f023ad3f9db2091b980a13011a/transformed/jetified-ble-2.5.1/AndroidManifest.xml:2:1-16:12
+MERGED from [no.nordicsemi.android:log:2.3.0] /Users/akashrana/.gradle/caches/transforms-3/36e20ea7579dd607fa70788a579042f8/transformed/jetified-log-2.3.0/AndroidManifest.xml:32:1-43:12
+MERGED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:2:1-51:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/akashrana/.gradle/caches/transforms-3/b7303f5b69e61907826c5224bed1cf15/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/b9f9078897dae8c1947b268af9290409/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/90a44ec6ceb48a2c7bed4c03a44c987b/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.6.0] /Users/akashrana/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.8.0] /Users/akashrana/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/3781aa15d0ffa4c9bedd198aebfb95dc/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/akashrana/.gradle/caches/transforms-3/d0951f17528a41ada2495ce9455ef593/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/akashrana/.gradle/caches/transforms-3/8d59ce94da331ea75c14ca73c3c8221f/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/akashrana/.gradle/caches/transforms-3/8a5514d4341f323606d890e29d4268b9/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/33022110ab8edaeede9665dd42ecaa6e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/akashrana/.gradle/caches/transforms-3/c86a02278d475af793e2cbf0fd78a45d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/28c6c5691bb0a1235ccf3d69b2a7721a/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/akashrana/.gradle/caches/transforms-3/7f5341402df1317e3084f464aedd2232/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/ae893b832c725ae41cefb75af7327aef/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/377a84118e106726a33ad193932c6370/transformed/sqlite-framework-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/3e24484ea53fbdd860fc988fbe6fc669/transformed/sqlite-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/4c666c731f72bca13b96ec6fea44ce5c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/akashrana/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/akashrana/.gradle/caches/transforms-3/3c020e3cf319ba477ff150a4370e6db4/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/b0ed3bc1190a335fc620be73cef0fa31/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/274a6366c1fa82a9cda5f98fe858df07/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/ea6a0879485e52a4f4039ca8778d8de8/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/e9ca322f243d3b7ed3a19622385d8532/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/debug/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/debug/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/debug/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/debug/AndroidManifest.xml:1:1-47:12
+INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/debug/AndroidManifest.xml:1:1-47:12
+INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/debug/AndroidManifest.xml:1:1-47:12
 	package
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:2:5-33
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-80:12
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-96:12
 		INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:2:5-51
 	android:versionCode
 		INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-80:12
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:1-96:12
 		INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:3:5-66
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:3:5-66
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:3:5-66
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:18:5-67
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:18:5-67
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:26:5-67
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:26:5-67
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:4:5-66
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:4:5-66
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:4:5-66
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:32:5-67
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:32:5-67
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:38:5-66
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:38:5-66
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:38:5-67
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:38:5-67
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:45:5-67
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:45:5-67
 	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:3:22-64
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.BLUETOOTH
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:5:5-7:38
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:5:5-7:38
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:5:5-7:38
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:9:5-68
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:9:5-68
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:41:5-68
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:41:5-68
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:7:5-8:38
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:7:5-8:38
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:7:5-8:38
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:43:5-68
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:43:5-68
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:11:5-13:38
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:11:5-13:38
 MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:23:5-25:38
 MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:23:5-25:38
-MERGED from [no.nordicsemi.android:dfu:1.11.1] /Users/akashrana/.gradle/caches/transforms-3/bf3d6e1f5a827a774efafea08edd29b7/transformed/jetified-dfu-1.11.1/AndroidManifest.xml:11:5-68
-MERGED from [no.nordicsemi.android:dfu:1.11.1] /Users/akashrana/.gradle/caches/transforms-3/bf3d6e1f5a827a774efafea08edd29b7/transformed/jetified-dfu-1.11.1/AndroidManifest.xml:11:5-68
-MERGED from [no.nordicsemi.android:ble:2.2.4] /Users/akashrana/.gradle/caches/transforms-3/c42035a32ad1625f40f723207851a632/transformed/jetified-ble-2.2.4/AndroidManifest.xml:10:5-68
-MERGED from [no.nordicsemi.android:ble:2.2.4] /Users/akashrana/.gradle/caches/transforms-3/c42035a32ad1625f40f723207851a632/transformed/jetified-ble-2.2.4/AndroidManifest.xml:10:5-68
+MERGED from [no.nordicsemi.android:dfu:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/5c62f9541241304317846e9bc57f06d9/transformed/jetified-dfu-2.1.0/AndroidManifest.xml:22:5-24:38
+MERGED from [no.nordicsemi.android:dfu:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/5c62f9541241304317846e9bc57f06d9/transformed/jetified-dfu-2.1.0/AndroidManifest.xml:22:5-24:38
+MERGED from [no.nordicsemi.android:ble:2.5.1] /Users/akashrana/.gradle/caches/transforms-3/058146f023ad3f9db2091b980a13011a/transformed/jetified-ble-2.5.1/AndroidManifest.xml:12:5-14:38
+MERGED from [no.nordicsemi.android:ble:2.5.1] /Users/akashrana/.gradle/caches/transforms-3/058146f023ad3f9db2091b980a13011a/transformed/jetified-ble-2.5.1/AndroidManifest.xml:12:5-14:38
+MERGED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:16:5-68
+MERGED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:16:5-68
 	android:maxSdkVersion
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:8:9-35
 	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:6:9-52
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:7:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:8:5-10:38
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:8:5-10:38
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:8:5-10:38
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:10:5-74
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:10:5-74
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:42:5-74
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:42:5-74
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:9:5-10:38
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:9:5-10:38
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:9:5-10:38
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:44:5-74
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:44:5-74
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:14:5-16:38
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:14:5-16:38
 MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:26:5-28:38
 MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:26:5-28:38
-MERGED from [no.nordicsemi.android:dfu:1.11.1] /Users/akashrana/.gradle/caches/transforms-3/bf3d6e1f5a827a774efafea08edd29b7/transformed/jetified-dfu-1.11.1/AndroidManifest.xml:12:5-74
-MERGED from [no.nordicsemi.android:dfu:1.11.1] /Users/akashrana/.gradle/caches/transforms-3/bf3d6e1f5a827a774efafea08edd29b7/transformed/jetified-dfu-1.11.1/AndroidManifest.xml:12:5-74
-MERGED from [no.nordicsemi.android:ble:2.2.4] /Users/akashrana/.gradle/caches/transforms-3/c42035a32ad1625f40f723207851a632/transformed/jetified-ble-2.2.4/AndroidManifest.xml:11:5-74
-MERGED from [no.nordicsemi.android:ble:2.2.4] /Users/akashrana/.gradle/caches/transforms-3/c42035a32ad1625f40f723207851a632/transformed/jetified-ble-2.2.4/AndroidManifest.xml:11:5-74
+MERGED from [no.nordicsemi.android:dfu:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/5c62f9541241304317846e9bc57f06d9/transformed/jetified-dfu-2.1.0/AndroidManifest.xml:30:5-32:38
+MERGED from [no.nordicsemi.android:dfu:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/5c62f9541241304317846e9bc57f06d9/transformed/jetified-dfu-2.1.0/AndroidManifest.xml:30:5-32:38
+MERGED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:17:5-74
+MERGED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:17:5-74
 	android:maxSdkVersion
 		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:10:9-35
 	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:9:9-58
-uses-permission#android.permission.BLUETOOTH_CONNECT
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:13:5-76
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:13:5-76
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:13:5-76
-MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-76
-MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-76
-	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:13:22-73
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:9:22-71
 uses-permission#android.permission.BLUETOOTH_SCAN
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:14:5-16:58
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:14:5-16:58
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:14:5-16:58
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:15:5-16:78
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:15:5-16:78
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:15:5-16:78
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:32:5-73
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:32:5-73
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:23:5-26:31
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:23:5-26:31
 MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-19:58
 MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-19:58
 	android:usesPermissionFlags
 		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:16:9-55
+	tools:targetApi
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:16:56-75
 	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:15:9-57
-uses-permission#android.permission.BLUETOOTH_ADVERTISE
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:17:5-78
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:17:5-78
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:17:5-78
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:15:22-70
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:23:5-76
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:23:5-76
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:23:5-76
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:31:5-76
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:31:5-76
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:30:5-76
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:30:5-76
+MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-76
+MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-76
+MERGED from [no.nordicsemi.android:dfu:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/5c62f9541241304317846e9bc57f06d9/transformed/jetified-dfu-2.1.0/AndroidManifest.xml:51:5-76
+MERGED from [no.nordicsemi.android:dfu:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/5c62f9541241304317846e9bc57f06d9/transformed/jetified-dfu-2.1.0/AndroidManifest.xml:51:5-76
 	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:17:22-75
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:20:5-79
-MERGED from [:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
-MERGED from [:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
-	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:20:22-77
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:21:5-80
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:11:5-81
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:11:5-81
-	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:21:22-78
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:23:22-73
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:22:5-80
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:22:5-80
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:22:5-80
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:26:5-80
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:26:5-80
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:26:5-80
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:33:5-81
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:33:5-81
 	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:22:22-78
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:26:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:23:5-78
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:23:5-78
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:23:5-78
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:47:5-79
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:47:5-79
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:27:5-78
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:27:5-78
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:27:5-78
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:34:5-79
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:34:5-79
 MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:29:5-79
 MERGED from [:flutter_blue_plus] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/flutter_blue_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:29:5-79
+MERGED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:22:5-79
+MERGED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:23:22-76
-uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:24:5-84
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:24:5-84
-MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:24:5-84
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:12:5-85
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:12:5-85
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:30:5-68
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:30:5-68
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:30:5-68
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:33:5-68
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:33:5-68
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:35:5-68
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:35:5-68
 	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:24:22-82
-uses-permission#android.permission.QUERY_ALL_PACKAGES
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:25:5-77
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:30:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:33:5-79
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:33:5-79
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:33:5-79
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:39:5-78
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:39:5-78
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:39:5-79
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:39:5-79
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:46:5-79
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:46:5-79
 	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:25:22-74
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:33:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:34:5-76
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:34:5-76
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:34:5-76
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:40:5-75
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:40:5-75
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:40:5-76
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:40:5-76
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:47:5-76
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:47:5-76
+	android:name
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:34:22-73
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:36:5-76
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:36:5-76
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:36:5-76
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:42:5-77
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:42:5-77
+	android:name
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:36:22-74
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:41:5-75
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:41:5-75
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:41:5-75
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:48:5-76
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:48:5-76
+	android:name
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:41:22-73
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:42:5-86
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:42:5-86
+MERGED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:42:5-86
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:49:5-86
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:49:5-86
+	android:name
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:42:22-83
 queries
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:69:5-79:15
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:85:5-95:15
 MERGED from [:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
 MERGED from [:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:73:9-77:18
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:89:9-93:18
 action#android.intent.action.VIEW
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:74:13-65
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:90:13-65
 	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:74:21-62
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:90:21-62
 category#android.intent.category.BROWSABLE
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:75:13-74
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:91:13-74
 	android:name
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:75:23-71
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:91:23-71
 data
-ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:76:13-44
+ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:92:13-44
 	android:scheme
-		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:76:19-41
+		ADDED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:92:19-41
 uses-sdk
 INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:5:5-7:41
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:5:5-7:41
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:27:5-29:41
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:27:5-29:41
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:27:5-29:41
+MERGED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:27:5-29:41
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:6:5-8:41
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:6:5-8:41
 MERGED from [:shared_preferences_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:shared_preferences_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/shared_preferences_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:permission_handler_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/permission_handler_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -255,98 +287,62 @@ MERGED from [:path_provider_android] /Users/akashrana/Documents/Client project/k
 MERGED from [:path_provider_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/akashrana/.gradle/caches/transforms-3/1084b997db70f9a41dbd052c2dbf83ed/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/akashrana/.gradle/caches/transforms-3/1084b997db70f9a41dbd052c2dbf83ed/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
-MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.tbruyelle:rxpermissions:0.12] /Users/akashrana/.gradle/caches/transforms-3/9238e724b54f979d1dc42d9a48ac1cff/transformed/jetified-rxpermissions-0.12/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.tbruyelle:rxpermissions:0.12] /Users/akashrana/.gradle/caches/transforms-3/9238e724b54f979d1dc42d9a48ac1cff/transformed/jetified-rxpermissions-0.12/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.5.0] /Users/akashrana/.gradle/caches/transforms-3/70c259ae05e613c349a48c3b9bfb9ed3/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.5.0] /Users/akashrana/.gradle/caches/transforms-3/70c259ae05e613c349a48c3b9bfb9ed3/transformed/jetified-core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.material:material:1.3.0] /Users/akashrana/.gradle/caches/transforms-3/8c09bec62be409fe572343fe4d451870/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.3.0] /Users/akashrana/.gradle/caches/transforms-3/8c09bec62be409fe572343fe4d451870/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/akashrana/.gradle/caches/transforms-3/7eb911bbc698fb30327142cdd89e5775/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/akashrana/.gradle/caches/transforms-3/7eb911bbc698fb30327142cdd89e5775/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/akashrana/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/akashrana/.gradle/caches/transforms-3/5bb5c542051ad7d41a6ce30144df9ca0/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [no.nordicsemi.android:dfu:1.11.1] /Users/akashrana/.gradle/caches/transforms-3/bf3d6e1f5a827a774efafea08edd29b7/transformed/jetified-dfu-1.11.1/AndroidManifest.xml:7:5-9:41
-MERGED from [no.nordicsemi.android:dfu:1.11.1] /Users/akashrana/.gradle/caches/transforms-3/bf3d6e1f5a827a774efafea08edd29b7/transformed/jetified-dfu-1.11.1/AndroidManifest.xml:7:5-9:41
+MERGED from [no.nordicsemi.android:dfu:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/5c62f9541241304317846e9bc57f06d9/transformed/jetified-dfu-2.1.0/AndroidManifest.xml:14:5-16:41
+MERGED from [no.nordicsemi.android:dfu:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/5c62f9541241304317846e9bc57f06d9/transformed/jetified-dfu-2.1.0/AndroidManifest.xml:14:5-16:41
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/akashrana/.gradle/caches/transforms-3/27810fa37225a473db88d76a0d5f9d87/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/akashrana/.gradle/caches/transforms-3/27810fa37225a473db88d76a0d5f9d87/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
-MERGED from [com.tencent:mmkv-static:1.2.9] /Users/akashrana/.gradle/caches/transforms-3/938276ac7e0b6c98de17fefd33101249/transformed/jetified-mmkv-static-1.2.9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.tencent:mmkv-static:1.2.9] /Users/akashrana/.gradle/caches/transforms-3/938276ac7e0b6c98de17fefd33101249/transformed/jetified-mmkv-static-1.2.9/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.room:room-runtime:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/14c72724844728ce1b2aeff0f19ab904/transformed/room-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-runtime:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/14c72724844728ce1b2aeff0f19ab904/transformed/room-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [no.nordicsemi.android:ble-common:2.2.4] /Users/akashrana/.gradle/caches/transforms-3/9260fbc9081c857b44636b0e39169424/transformed/jetified-ble-common-2.2.4/AndroidManifest.xml:6:5-8:41
-MERGED from [no.nordicsemi.android:ble-common:2.2.4] /Users/akashrana/.gradle/caches/transforms-3/9260fbc9081c857b44636b0e39169424/transformed/jetified-ble-common-2.2.4/AndroidManifest.xml:6:5-8:41
-MERGED from [no.nordicsemi.android:ble:2.2.4] /Users/akashrana/.gradle/caches/transforms-3/c42035a32ad1625f40f723207851a632/transformed/jetified-ble-2.2.4/AndroidManifest.xml:6:5-8:41
-MERGED from [no.nordicsemi.android:ble:2.2.4] /Users/akashrana/.gradle/caches/transforms-3/c42035a32ad1625f40f723207851a632/transformed/jetified-ble-2.2.4/AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/c564864b85a0960493dadaf97ef781d3/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/c564864b85a0960493dadaf97ef781d3/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] /Users/akashrana/.gradle/caches/transforms-3/b22ca91cb7e5836c5d78d9336476da77/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] /Users/akashrana/.gradle/caches/transforms-3/b22ca91cb7e5836c5d78d9336476da77/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] /Users/akashrana/.gradle/caches/transforms-3/dacc4c7ea63694108385a92c014f7edb/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] /Users/akashrana/.gradle/caches/transforms-3/dacc4c7ea63694108385a92c014f7edb/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/akashrana/.gradle/caches/transforms-3/0c64aa0e9f5f460bf794068f60e50a1e/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/akashrana/.gradle/caches/transforms-3/0c64aa0e9f5f460bf794068f60e50a1e/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/2fce982de6bcb65312b126b72c128883/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/2fce982de6bcb65312b126b72c128883/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/e7b09f39a842df5984e53de23e58c27f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/e7b09f39a842df5984e53de23e58c27f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/0524663abfa43c71322819f8b68635f2/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/0524663abfa43c71322819f8b68635f2/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /Users/akashrana/.gradle/caches/transforms-3/409e08e34bc80ce2fd2e7bb1ddb7bcf7/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/akashrana/.gradle/caches/transforms-3/409e08e34bc80ce2fd2e7bb1ddb7bcf7/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/eba3ac105ce1a200b5302334a4f79c0c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/eba3ac105ce1a200b5302334a4f79c0c/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/86da411e3ef3e48ed679a69941c8410e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/86da411e3ef3e48ed679a69941c8410e/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.tencent:mmkv-static:1.2.11] /Users/akashrana/.gradle/caches/transforms-3/191bcbbbfa85479ffe56e79c8db11b0d/transformed/jetified-mmkv-static-1.2.11/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent:mmkv-static:1.2.11] /Users/akashrana/.gradle/caches/transforms-3/191bcbbbfa85479ffe56e79c8db11b0d/transformed/jetified-mmkv-static-1.2.11/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [no.nordicsemi.android:ble-common:2.5.1] /Users/akashrana/.gradle/caches/transforms-3/b9c5e4b293ac3322dae2579d21d790f9/transformed/jetified-ble-common-2.5.1/AndroidManifest.xml:5:5-7:41
+MERGED from [no.nordicsemi.android:ble-common:2.5.1] /Users/akashrana/.gradle/caches/transforms-3/b9c5e4b293ac3322dae2579d21d790f9/transformed/jetified-ble-common-2.5.1/AndroidManifest.xml:5:5-7:41
+MERGED from [no.nordicsemi.android:ble:2.5.1] /Users/akashrana/.gradle/caches/transforms-3/058146f023ad3f9db2091b980a13011a/transformed/jetified-ble-2.5.1/AndroidManifest.xml:8:5-10:41
+MERGED from [no.nordicsemi.android:ble:2.5.1] /Users/akashrana/.gradle/caches/transforms-3/058146f023ad3f9db2091b980a13011a/transformed/jetified-ble-2.5.1/AndroidManifest.xml:8:5-10:41
+MERGED from [no.nordicsemi.android:log:2.3.0] /Users/akashrana/.gradle/caches/transforms-3/36e20ea7579dd607fa70788a579042f8/transformed/jetified-log-2.3.0/AndroidManifest.xml:37:5-39:41
+MERGED from [no.nordicsemi.android:log:2.3.0] /Users/akashrana/.gradle/caches/transforms-3/36e20ea7579dd607fa70788a579042f8/transformed/jetified-log-2.3.0/AndroidManifest.xml:37:5-39:41
+MERGED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:8:5-10:41
+MERGED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/akashrana/.gradle/caches/transforms-3/b7303f5b69e61907826c5224bed1cf15/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/akashrana/.gradle/caches/transforms-3/b7303f5b69e61907826c5224bed1cf15/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/0e0e1a382b52c0572988a1c50e96d2f7/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/246793f755122fe14a5802655438cb75/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/045d2e69ed718df502093495707de7d0/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/b9f9078897dae8c1947b268af9290409/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/b9f9078897dae8c1947b268af9290409/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/906f41b23948e23cf276f1b1ba5ed41e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/90a44ec6ceb48a2c7bed4c03a44c987b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/90a44ec6ceb48a2c7bed4c03a44c987b/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/8fa8bdf086632123dcb3f9226ab7b2b9/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/d411e96186971239cc9320701a4aa95b/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.6.0] /Users/akashrana/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] /Users/akashrana/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/akashrana/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/akashrana/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/3781aa15d0ffa4c9bedd198aebfb95dc/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/3781aa15d0ffa4c9bedd198aebfb95dc/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/akashrana/.gradle/caches/transforms-3/d0951f17528a41ada2495ce9455ef593/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/akashrana/.gradle/caches/transforms-3/d0951f17528a41ada2495ce9455ef593/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/akashrana/.gradle/caches/transforms-3/8d59ce94da331ea75c14ca73c3c8221f/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/akashrana/.gradle/caches/transforms-3/8d59ce94da331ea75c14ca73c3c8221f/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/akashrana/.gradle/caches/transforms-3/8a5514d4341f323606d890e29d4268b9/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/akashrana/.gradle/caches/transforms-3/8a5514d4341f323606d890e29d4268b9/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/33022110ab8edaeede9665dd42ecaa6e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/33022110ab8edaeede9665dd42ecaa6e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/akashrana/.gradle/caches/transforms-3/c86a02278d475af793e2cbf0fd78a45d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/akashrana/.gradle/caches/transforms-3/c86a02278d475af793e2cbf0fd78a45d/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/28c6c5691bb0a1235ccf3d69b2a7721a/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/28c6c5691bb0a1235ccf3d69b2a7721a/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/akashrana/.gradle/caches/transforms-3/7f5341402df1317e3084f464aedd2232/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/akashrana/.gradle/caches/transforms-3/7f5341402df1317e3084f464aedd2232/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/ae893b832c725ae41cefb75af7327aef/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/ae893b832c725ae41cefb75af7327aef/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/377a84118e106726a33ad193932c6370/transformed/sqlite-framework-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/377a84118e106726a33ad193932c6370/transformed/sqlite-framework-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/3e24484ea53fbdd860fc988fbe6fc669/transformed/sqlite-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/3e24484ea53fbdd860fc988fbe6fc669/transformed/sqlite-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/4c666c731f72bca13b96ec6fea44ce5c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/4c666c731f72bca13b96ec6fea44ce5c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/akashrana/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/akashrana/.gradle/caches/transforms-3/c6290d38a27dcf8d064fa9cefcb89071/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/9a15d0431946b4658756ca271d093b65/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/4d571c0d2420042bbe5204d312a62bb2/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/akashrana/.gradle/caches/transforms-3/3c020e3cf319ba477ff150a4370e6db4/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/akashrana/.gradle/caches/transforms-3/3c020e3cf319ba477ff150a4370e6db4/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/akashrana/.gradle/caches/transforms-3/ab7ce279708bbb9e6bfa95c7580f1bb9/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/b0ed3bc1190a335fc620be73cef0fa31/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/b0ed3bc1190a335fc620be73cef0fa31/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/274a6366c1fa82a9cda5f98fe858df07/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/274a6366c1fa82a9cda5f98fe858df07/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/ea6a0879485e52a4f4039ca8778d8de8/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/ea6a0879485e52a4f4039ca8778d8de8/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/e9ca322f243d3b7ed3a19622385d8532/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/e9ca322f243d3b7ed3a19622385d8532/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/akashrana/.gradle/caches/transforms-3/61be2594815516b1d798e8de806d8dcb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/akashrana/.gradle/caches/transforms-3/ed9734c73cdec898947618088fbe87b0/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/akashrana/.gradle/caches/transforms-3/58e3540d7f5a5bac6af9a8f8fab44363/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/debug/AndroidManifest.xml
@@ -358,98 +354,70 @@ INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/ap
 		INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/debug/AndroidManifest.xml
 uses-permission-sdk-23#android.permission.ACCESS_FINE_LOCATION
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:14:5-86
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:35:5-86
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:35:5-86
+ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:37:5-86
 	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:14:29-83
+		ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:37:29-83
 uses-permission-sdk-23#android.permission.ACCESS_COARSE_LOCATION
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:15:5-88
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:36:5-88
-MERGED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:36:5-88
+ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:38:5-88
 	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:15:29-85
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:19:5-75
-	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:19:22-72
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:20:5-79
-	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:20:22-76
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:21:5-76
-	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:21:22-73
-uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:23:5-77
-MERGED from [no.nordicsemi.android:dfu:1.11.1] /Users/akashrana/.gradle/caches/transforms-3/bf3d6e1f5a827a774efafea08edd29b7/transformed/jetified-dfu-1.11.1/AndroidManifest.xml:13:5-77
-MERGED from [no.nordicsemi.android:dfu:1.11.1] /Users/akashrana/.gradle/caches/transforms-3/bf3d6e1f5a827a774efafea08edd29b7/transformed/jetified-dfu-1.11.1/AndroidManifest.xml:13:5-77
-	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:23:22-74
-uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:29:5-76
-	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:29:22-73
-uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:30:5-86
-	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:30:22-83
-activity#com.vivalnk.sdk.ble.ota.NotificationActivity
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:33:9-81
-	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:33:19-78
-service#com.vivalnk.sdk.ble.dfu.DfuService
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:35:9-41:19
-MERGED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:35:9-41:19
-intent-filter#action:name:no.nordicsemi.android.action.DFU_UPLOAD+category:name:android.intent.category.DEFAULT
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:36:13-40:29
-action#no.nordicsemi.android.action.DFU_UPLOAD
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:37:17-82
-	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:37:25-79
-category#android.intent.category.DEFAULT
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:39:17-76
-	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:39:27-73
-service#com.ido.ble.bluetooth.DeviceConnectService
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:44:9-46:40
-	android:exported
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:46:13-37
-	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:45:13-70
-service#com.ido.ble.dfu.DFUService
-ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:47:9-50:40
-	android:enabled
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:49:13-35
-	android:exported
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:50:13-37
-	android:name
-		ADDED from [sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:48:13-54
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:31:5-68
-	android:name
-		ADDED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:31:22-65
+		ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:38:29-85
 service#com.vivalnk.android.support.v18.scanner.ScannerService
-ADDED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:56:9-58:40
+ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:53:9-55:40
 	android:exported
-		ADDED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:58:13-37
+		ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:57:13-82
+		ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:54:13-82
 receiver#com.vivalnk.android.support.v18.scanner.PendingIntentReceiver
-ADDED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:66:9-73:20
+ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:63:9-70:20
 	android:exported
-		ADDED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:68:13-36
+		ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:65:13-36
 	tools:ignore
-		ADDED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:69:13-44
+		ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:66:13-44
 	android:name
-		ADDED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:67:13-89
+		ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:64:13-89
 intent-filter#action:name:com.vivalnk.android.support.v18.ACTION_FOUND
-ADDED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:70:13-72:29
+ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:67:13-69:29
 action#com.vivalnk.android.support.v18.ACTION_FOUND
-ADDED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:71:17-87
+ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:68:17-87
 	android:name
-		ADDED from [sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:71:25-84
+		ADDED from [sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:68:25-84
+activity#com.vivalnk.sdk.ble.ota.NotificationActivity
+ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:52:9-81
+	android:name
+		ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:52:19-78
+service#com.vivalnk.sdk.ble.dfu.DfuService
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:54:9-62:19
+MERGED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:54:9-62:19
+	android:exported
+		ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:56:13-37
+intent-filter#action:name:no.nordicsemi.android.action.DFU_UPLOAD+category:name:android.intent.category.DEFAULT
+ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:57:13-61:29
+action#no.nordicsemi.android.action.DFU_UPLOAD
+ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:58:17-82
+	android:name
+		ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:58:25-79
+category#android.intent.category.DEFAULT
+ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:60:17-76
+	android:name
+		ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:60:27-73
+service#com.ido.ble.bluetooth.DeviceConnectService
+ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:65:9-67:40
+	android:exported
+		ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:66:13-70
+service#com.ido.ble.dfu.DFUService
+ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:68:9-71:40
+	android:enabled
+		ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:70:13-35
+	android:exported
+		ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:71:13-37
+	android:name
+		ADDED from [sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:69:13-54
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from [:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-77
 intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
 ADDED from [:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
 action#android.intent.action.GET_CONTENT
@@ -464,6 +432,38 @@ ADDED from [:url_launcher_android] /Users/akashrana/Documents/Client project/key
 		ADDED from [:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
 	android:name
 		ADDED from [:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+uses-permission#no.nordicsemi.android.LOG
+ADDED from [no.nordicsemi.android:log:2.3.0] /Users/akashrana/.gradle/caches/transforms-3/36e20ea7579dd607fa70788a579042f8/transformed/jetified-log-2.3.0/AndroidManifest.xml:41:5-65
+	android:name
+		ADDED from [no.nordicsemi.android:log:2.3.0] /Users/akashrana/.gradle/caches/transforms-3/36e20ea7579dd607fa70788a579042f8/transformed/jetified-log-2.3.0/AndroidManifest.xml:41:22-62
+service#no.nordicsemi.android.support.v18.scanner.ScannerService
+ADDED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:32:13-84
+receiver#no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver
+ADDED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:41:9-48:20
+	android:exported
+		ADDED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:43:13-36
+	tools:ignore
+		ADDED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:42:13-91
+intent-filter#action:name:no.nordicsemi.android.support.v18.ACTION_FOUND
+ADDED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:45:13-47:29
+action#no.nordicsemi.android.support.v18.ACTION_FOUND
+ADDED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:46:17-89
+	android:name
+		ADDED from [no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:46:25-86
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 	android:required

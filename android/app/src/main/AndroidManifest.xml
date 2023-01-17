@@ -1,28 +1,45 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.dmt.patientapp">
     <uses-permission android:name="android.permission.INTERNET"/>
 
-    <uses-permission
-        android:name="android.permission.BLUETOOTH"
+    <!-- Request legacy Bluetooth permissions on older android devices. -->
+    <uses-permission android:name="android.permission.BLUETOOTH"
         android:maxSdkVersion="30" />
-    <uses-permission
-        android:name="android.permission.BLUETOOTH_ADMIN"
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"
         android:maxSdkVersion="30" />
-
-    <!-- API 31+ -->
+    <!-- Needed only if your app looks for Bluetooth devices.
+         If your app doesn't use Bluetooth scan results to derive physical
+         location information, you can strongly assert that your app
+         doesn't derive physical location. -->
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation" tools:targetApi="s" />
+    <!-- Needed only if your app makes the android device discoverable to
+  Bluetooth devices. -->
+    <!--  <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"
+  />-->
+    <!-- Needed only if your app communicates with already-paired Bluetooth
+  devices. -->
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-    <uses-permission
-        android:name="android.permission.BLUETOOTH_SCAN"
-        android:usesPermissionFlags="neverForLocation" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
-
-
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- Needed only if your app uses Bluetooth scan results to derive physical
+  location. -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
-    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- Required to provide the web interface -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- Required to run keep-alive service when targeting API 28 or higher -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <!-- For BP5S Internet communication and detect/manage Wi-Fi state-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
     <application
         android:label="DMT-Patient"
         android:name="${applicationName}"
@@ -53,7 +70,6 @@
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
 
         <service android:name="com.vivalnk.sdk.ble.dfu.DfuService"
-            android:exported="true"
             xmlns:tools="http://schemas.android.com/tools"
             tools:node="merge"
             />

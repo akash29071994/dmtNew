@@ -11,270 +11,330 @@
 9-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:3:5-66
-11-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:3:22-64
-12    <uses-permission
-12-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:5:5-7:38
-13        android:name="android.permission.BLUETOOTH"
-13-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:6:9-52
-14        android:maxSdkVersion="30" />
-14-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:7:9-35
-15    <uses-permission
-15-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:8:5-10:38
-16        android:name="android.permission.BLUETOOTH_ADMIN"
-16-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:9:9-58
-17        android:maxSdkVersion="30" />
-17-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:10:9-35
-18
-19    <!-- API 31+ -->
-20    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-20-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:13:5-76
-20-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:13:22-73
-21    <uses-permission
-21-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:14:5-16:58
-22        android:name="android.permission.BLUETOOTH_SCAN"
-22-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:15:9-57
-23        android:usesPermissionFlags="neverForLocation" />
-23-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:16:9-55
-24    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
-24-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:17:5-78
-24-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:17:22-75
-25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-25-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:20:5-79
-25-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:20:22-77
-26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-26-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:21:5-80
-26-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:21:22-78
-27    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-27-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:22:5-80
-27-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:22:22-78
-28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-28-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:23:5-78
-28-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:23:22-76
-29    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-29-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:24:5-84
-29-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:24:22-82
-30    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-30-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:25:5-77
-30-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:25:22-74
-31
-32    <!-- Provide required visibility configuration for API level 30 and above -->
-33    <queries>
-33-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:69:5-79:15
-34
-35        <!-- If your app checks for SMS support -->
-36
-37        <intent>
-37-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:73:9-77:18
-38            <action android:name="android.intent.action.VIEW" />
-38-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:74:13-65
-38-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:74:21-62
-39
-40            <category android:name="android.intent.category.BROWSABLE" />
-40-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:75:13-74
-40-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:75:23-71
-41
-42            <data android:scheme="https" />
-42-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:76:13-44
-42-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:76:19-41
-43        </intent>
-44        <intent>
-44-->[:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
-45            <action android:name="android.intent.action.GET_CONTENT" />
-45-->[:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
-45-->[:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
-46
-47            <data android:mimeType="*/*" />
-47-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:76:13-44
-48        </intent>
-49    </queries>
-50
-51    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
-51-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:14:5-86
-51-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:14:29-83
-52    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
-52-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:15:5-88
-52-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:15:29-85
-53
-54    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-54-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:19:5-75
-54-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:19:22-72
-55    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-55-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:20:5-79
-55-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:20:22-76
-56    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to run keep-alive service when targeting API 28 or higher -->
-56-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:21:5-76
-56-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:21:22-73
-57    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-57-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:23:5-77
-57-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:23:22-74
-58    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-58-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:20:5-79
-58-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:20:22-76
-59    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-59-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:21:5-76
-59-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:21:22-73
-60    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-60-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:29:5-76
-60-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:29:22-73
-61    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
-61-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:30:5-86
-61-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:30:22-83
-62    <uses-permission android:name="android.permission.WAKE_LOCK" />
-62-->[sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:31:5-68
-62-->[sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:31:22-65
-63
-64    <application
-65        android:name="android.app.Application"
-65-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:28:9-42
-66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-66-->[androidx.core:core:1.6.0] /Users/akashrana/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
-67        android:icon="@mipmap/ic_launcher"
-67-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:29:9-43
-68        android:label="DMT-Patient" >
-68-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:27:9-36
-69        <activity
-69-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:30:9-51:20
-70            android:name="com.dmt.patientapp.MainActivity"
-70-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:31:13-41
-71            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-71-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:36:13-163
-72            android:exported="true"
-72-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:32:13-36
-73            android:hardwareAccelerated="true"
-73-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:37:13-47
-74            android:launchMode="singleTop"
-74-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:33:13-43
-75            android:screenOrientation="portrait"
-75-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:34:13-49
-76            android:theme="@style/LaunchTheme"
-76-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:35:13-47
-77            android:windowSoftInputMode="adjustResize" >
-77-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:38:13-55
-78
-79            <!--
-80                 Specifies an Android theme to apply to this Activity as soon as
-81                 the Android process has started. This theme is visible to the user
-82                 while the Flutter UI initializes. After that, this theme continues
-83                 to determine the Window background behind the Flutter UI.
-84            -->
-85            <meta-data
-85-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:43:13-45:57
-86                android:name="io.flutter.embedding.android.NormalTheme"
-86-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:44:17-72
-87                android:resource="@style/NormalTheme" />
-87-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:45:17-54
-88
-89            <intent-filter>
-89-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:46:13-49:29
-90                <action android:name="android.intent.action.MAIN" />
-90-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:47:17-68
-90-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:47:25-66
-91
-92                <category android:name="android.intent.category.LAUNCHER" />
-92-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:48:17-76
-92-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:48:27-74
-93            </intent-filter>
-94        </activity>
-95        <!--
-96             Don't delete the meta-data below.
-97             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-98        -->
-99
-100        <service
-100-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:55:9-59:15
-101            android:name="com.vivalnk.sdk.ble.dfu.DfuService"
-101-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:55:18-67
-102            android:exported="true" >
-102-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:56:13-36
-103            <intent-filter>
-103-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:36:13-40:29
-104                <action android:name="no.nordicsemi.android.action.DFU_UPLOAD" />
-104-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:37:17-82
-104-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:37:25-79
-105
-106                <category android:name="android.intent.category.DEFAULT" />
-106-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:39:17-76
-106-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:39:27-73
-107            </intent-filter>
-108        </service>
-109
-110        <meta-data
-110-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:60:9-62:33
-111            android:name="flutterEmbedding"
-111-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:61:13-44
-112            android:value="2" />
-112-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:62:13-30
-113
-114        <activity android:name="com.vivalnk.sdk.ble.ota.NotificationActivity" /> <!-- //for BP5S -->
-114-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:33:9-81
-114-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:33:19-78
-115        <service
-115-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:44:9-46:40
-116            android:name="com.ido.ble.bluetooth.DeviceConnectService"
-116-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:45:13-70
-117            android:exported="false" />
-117-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:46:13-37
-118        <service
-118-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:47:9-50:40
-119            android:name="com.ido.ble.dfu.DFUService"
-119-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:48:13-54
-120            android:enabled="true"
-120-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:49:13-35
-121            android:exported="false" />
-121-->[sdk-core-2.6.0.1678.aar] /Users/akashrana/.gradle/caches/transforms-3/74cfa0e1ead933a287f260efb3db7bcc/transformed/jetified-sdk-core-2.6.0.1678/AndroidManifest.xml:50:13-37
-122        <!--
-123    Service used to scan in background to emulate scanning with
-124    PendingIntent on Android 4.3 - 7.x. Service will scan in background with given
-125    settings and filters.
-126        -->
-127        <service
-127-->[sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:56:9-58:40
-128            android:name="com.vivalnk.android.support.v18.scanner.ScannerService"
-128-->[sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:57:13-82
-129            android:exported="false" />
-129-->[sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:58:13-37
-130        <!--
-131    The receiver used to scan with PendingIntent on Android 8+.
-132    It will translate results from android.bluetooth.le package to
-133    no.nordicsemi.android.support.v18, apply filters or perform batching,
-134    depending on the settings.
-135        -->
-136        <receiver
-136-->[sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:66:9-73:20
-137            android:name="com.vivalnk.android.support.v18.scanner.PendingIntentReceiver"
-137-->[sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:67:13-89
-138            android:exported="true" >
-138-->[sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:68:13-36
-139            <intent-filter>
-139-->[sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:70:13-72:29
-140                <action android:name="com.vivalnk.android.support.v18.ACTION_FOUND" />
-140-->[sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:71:17-87
-140-->[sdk-common-1.3.1.0393.aar] /Users/akashrana/.gradle/caches/transforms-3/c4cc1229c15bad97eecad4d714c03075/transformed/jetified-sdk-common-1.3.1.0393/AndroidManifest.xml:71:25-84
-141            </intent-filter>
-142        </receiver>
-143
-144        <activity
-144-->[:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
-145            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-145-->[:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
-146            android:exported="false"
-146-->[:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
-147            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-147-->[:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
-148
-149        <uses-library
-149-->[androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-150            android:name="androidx.window.extensions"
-150-->[androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-151            android:required="false" />
-151-->[androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-152        <uses-library
-152-->[androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-153            android:name="androidx.window.sidecar"
-153-->[androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-154            android:required="false" />
-154-->[androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-155    </application>
-156
-157</manifest>
+11-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <!-- Request legacy Bluetooth permissions on older android devices. -->
+14    <uses-permission
+14-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:7:5-8:38
+15        android:name="android.permission.BLUETOOTH"
+15-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:7:22-65
+16        android:maxSdkVersion="30" />
+16-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:8:9-35
+17    <uses-permission
+17-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:9:5-10:38
+18        android:name="android.permission.BLUETOOTH_ADMIN"
+18-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:9:22-71
+19        android:maxSdkVersion="30" />
+19-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:10:9-35
+20    <!--
+21         Needed only if your app looks for Bluetooth devices.
+22         If your app doesn't use Bluetooth scan results to derive physical
+23         location information, you can strongly assert that your app
+24         doesn't derive physical location.
+25    -->
+26    <uses-permission
+26-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:15:5-16:78
+27        android:name="android.permission.BLUETOOTH_SCAN"
+27-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:15:22-70
+28        android:usesPermissionFlags="neverForLocation" />
+28-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:16:9-55
+29    <!--
+30  Needed only if your app makes the android device discoverable to
+31  Bluetooth devices.
+32    -->
+33    <!--
+34  <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"
+35  />
+36    -->
+37    <!--
+38  Needed only if your app communicates with already-paired Bluetooth
+39  devices.
+40    -->
+41    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+41-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:23:5-76
+41-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:23:22-73
+42    <!--
+43  Needed only if your app uses Bluetooth scan results to derive physical
+44  location.
+45    -->
+46    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+46-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:26:5-80
+46-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:26:22-78
+47    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+47-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:27:5-78
+47-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:27:22-76
+48    <uses-permission android:name="android.permission.WAKE_LOCK" />
+48-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:30:5-68
+48-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:30:22-65
+49    <!-- Required to provide the web interface -->
+50    <uses-permission android:name="android.permission.INTERNET" />
+50-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:4:5-66
+50-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:4:22-64
+51    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+51-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:33:5-79
+51-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:33:22-76
+52    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+52-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:34:5-76
+52-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:34:22-73
+53    <!-- Required to run keep-alive service when targeting API 28 or higher -->
+54    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+54-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:36:5-76
+54-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:36:22-74
+55    <!-- For BP5S Internet communication and detect/manage Wi-Fi state -->
+56    <uses-permission android:name="android.permission.INTERNET" />
+56-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:4:5-66
+56-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:4:22-64
+57    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+57-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:33:5-79
+57-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:33:22-76
+58    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+58-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:34:5-76
+58-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:34:22-73
+59    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+59-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:41:5-75
+59-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:41:22-73
+60    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+60-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:42:5-86
+60-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:42:22-83
+61
+62    <!-- Provide required visibility configuration for API level 30 and above -->
+63    <queries>
+63-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:85:5-95:15
+64
+65        <!-- If your app checks for SMS support -->
+66
+67        <intent>
+67-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:89:9-93:18
+68            <action android:name="android.intent.action.VIEW" />
+68-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:90:13-65
+68-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:90:21-62
+69
+70            <category android:name="android.intent.category.BROWSABLE" />
+70-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:91:13-74
+70-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:91:23-71
+71
+72            <data android:scheme="https" />
+72-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:92:13-44
+72-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:92:19-41
+73        </intent>
+74        <intent>
+74-->[:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+75            <action android:name="android.intent.action.GET_CONTENT" />
+75-->[:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+75-->[:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+76
+77            <data android:mimeType="*/*" />
+77-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:92:13-44
+78        </intent>
+79    </queries>
+80    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+81    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> -->
+82    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+82-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:37:5-86
+82-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:37:29-83
+83    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+83-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:38:5-88
+83-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:38:29-85
+84
+85    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+85-->[:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+85-->[:file_picker] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-77
+86    <uses-permission android:name="no.nordicsemi.android.LOG" />
+86-->[no.nordicsemi.android:log:2.3.0] /Users/akashrana/.gradle/caches/transforms-3/36e20ea7579dd607fa70788a579042f8/transformed/jetified-log-2.3.0/AndroidManifest.xml:41:5-65
+86-->[no.nordicsemi.android:log:2.3.0] /Users/akashrana/.gradle/caches/transforms-3/36e20ea7579dd607fa70788a579042f8/transformed/jetified-log-2.3.0/AndroidManifest.xml:41:22-62
+87
+88    <application
+89        android:name="android.app.Application"
+89-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:45:9-42
+90        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+90-->[androidx.core:core:1.8.0] /Users/akashrana/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+91        android:icon="@mipmap/ic_launcher"
+91-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:46:9-43
+92        android:label="DMT-Patient" >
+92-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:44:9-36
+93        <activity
+93-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:47:9-68:20
+94            android:name="com.dmt.patientapp.MainActivity"
+94-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:48:13-41
+95            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+95-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:53:13-163
+96            android:exported="true"
+96-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:49:13-36
+97            android:hardwareAccelerated="true"
+97-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:54:13-47
+98            android:launchMode="singleTop"
+98-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:50:13-43
+99            android:screenOrientation="portrait"
+99-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:51:13-49
+100            android:theme="@style/LaunchTheme"
+100-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:52:13-47
+101            android:windowSoftInputMode="adjustResize" >
+101-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:55:13-55
+102
+103            <!--
+104                 Specifies an Android theme to apply to this Activity as soon as
+105                 the Android process has started. This theme is visible to the user
+106                 while the Flutter UI initializes. After that, this theme continues
+107                 to determine the Window background behind the Flutter UI.
+108            -->
+109            <meta-data
+109-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:60:13-62:57
+110                android:name="io.flutter.embedding.android.NormalTheme"
+110-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:61:17-72
+111                android:resource="@style/NormalTheme" />
+111-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:62:17-54
+112
+113            <intent-filter>
+113-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:63:13-66:29
+114                <action android:name="android.intent.action.MAIN" />
+114-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:64:17-68
+114-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:64:25-66
+115
+116                <category android:name="android.intent.category.LAUNCHER" />
+116-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:65:17-76
+116-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:65:27-74
+117            </intent-filter>
+118        </activity>
+119        <!--
+120             Don't delete the meta-data below.
+121             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+122        -->
+123
+124        <service
+124-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:72:9-75:15
+125            android:name="com.vivalnk.sdk.ble.dfu.DfuService"
+125-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:72:18-67
+126            android:exported="false" >
+126-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:56:13-37
+127            <intent-filter>
+127-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:57:13-61:29
+128                <action android:name="no.nordicsemi.android.action.DFU_UPLOAD" />
+128-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:58:17-82
+128-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:58:25-79
+129
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:60:17-76
+130-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:60:27-73
+131            </intent-filter>
+132        </service>
+133
+134        <meta-data
+134-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:76:9-78:33
+135            android:name="flutterEmbedding"
+135-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:77:13-44
+136            android:value="2" />
+136-->/Users/akashrana/Documents/Client project/keyurbhai/dmt/android/app/src/main/AndroidManifest.xml:78:13-30
+137
+138        <!--
+139    Service used to scan in background to emulate scanning with
+140    PendingIntent on Android 4.3 - 7.x. Service will scan in background with given
+141    settings and filters.
+142        -->
+143        <service
+143-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:53:9-55:40
+144            android:name="com.vivalnk.android.support.v18.scanner.ScannerService"
+144-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:54:13-82
+145            android:exported="false" />
+145-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:55:13-37
+146        <!--
+147    The receiver used to scan with PendingIntent on Android 8+.
+148    It will translate results from android.bluetooth.le package to
+149    no.nordicsemi.android.support.v18, apply filters or perform batching,
+150    depending on the settings.
+151        -->
+152        <receiver
+152-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:63:9-70:20
+153            android:name="com.vivalnk.android.support.v18.scanner.PendingIntentReceiver"
+153-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:64:13-89
+154            android:exported="true" >
+154-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:65:13-36
+155            <intent-filter>
+155-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:67:13-69:29
+156                <action android:name="com.vivalnk.android.support.v18.ACTION_FOUND" />
+156-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:68:17-87
+156-->[sdk-common-1.3.1.0462.aar] /Users/akashrana/.gradle/caches/transforms-3/942a91b8c63c61887e6d9748694e0c1d/transformed/jetified-sdk-common-1.3.1.0462/AndroidManifest.xml:68:25-84
+157            </intent-filter>
+158        </receiver>
+159
+160        <activity android:name="com.vivalnk.sdk.ble.ota.NotificationActivity" /> <!-- //for BP5S -->
+160-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:52:9-81
+160-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:52:19-78
+161        <service
+161-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:65:9-67:40
+162            android:name="com.ido.ble.bluetooth.DeviceConnectService"
+162-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:66:13-70
+163            android:exported="false" />
+163-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:67:13-37
+164        <service
+164-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:68:9-71:40
+165            android:name="com.ido.ble.dfu.DFUService"
+165-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:69:13-54
+166            android:enabled="true"
+166-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:70:13-35
+167            android:exported="false" />
+167-->[sdk-core-3.0.0.2193.aar] /Users/akashrana/.gradle/caches/transforms-3/49ee3951344e1a6ba3ff80646253a581/transformed/jetified-sdk-core-3.0.0.2193/AndroidManifest.xml:71:13-37
+168
+169        <activity
+169-->[:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+170            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+170-->[:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+171            android:exported="false"
+171-->[:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+172            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+172-->[:url_launcher_android] /Users/akashrana/Documents/Client project/keyurbhai/dmt/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+173
+174        <service
+174-->[androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+175            android:name="androidx.room.MultiInstanceInvalidationService"
+175-->[androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+176            android:directBootAware="true"
+176-->[androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+177            android:exported="false" />
+177-->[androidx.room:room-runtime:2.4.2] /Users/akashrana/.gradle/caches/transforms-3/97fe0ed566b82d56ed399ae2a7ae79b8/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+178        <!--
+179		Service used to scan in background to emulate scanning with
+180		PendingIntent on Android 4.3 - 7.x. Service will scan in background with given
+181		settings and filters.
+182        -->
+183        <service
+183-->[no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:31:9-33:40
+184            android:name="no.nordicsemi.android.support.v18.scanner.ScannerService"
+184-->[no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:32:13-84
+185            android:exported="false" />
+185-->[no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:33:13-37
+186        <!--
+187		The receiver used to scan with PendingIntent on Android 8+.
+188		It will translate results from android.bluetooth.le package to
+189		no.nordicsemi.android.support.v18, apply filters or perform batching,
+190		depending on the settings.
+191        -->
+192        <receiver
+192-->[no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:41:9-48:20
+193            android:name="no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver"
+193-->[no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:42:13-91
+194            android:exported="true" >
+194-->[no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:43:13-36
+195            <intent-filter>
+195-->[no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:45:13-47:29
+196                <action android:name="no.nordicsemi.android.support.v18.ACTION_FOUND" />
+196-->[no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:46:17-89
+196-->[no.nordicsemi.android.support.v18:scanner:1.4.3] /Users/akashrana/.gradle/caches/transforms-3/701d783cf11a98266fc44d837c693e57/transformed/jetified-scanner-1.4.3/AndroidManifest.xml:46:25-86
+197            </intent-filter>
+198        </receiver>
+199
+200        <uses-library
+200-->[androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+201            android:name="androidx.window.extensions"
+201-->[androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+202            android:required="false" />
+202-->[androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+203        <uses-library
+203-->[androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+204            android:name="androidx.window.sidecar"
+204-->[androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+205            android:required="false" />
+205-->[androidx.window:window:1.0.0-beta04] /Users/akashrana/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+206    </application>
+207
+208</manifest>

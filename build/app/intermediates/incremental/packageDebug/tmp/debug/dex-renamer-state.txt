@@ -1,10 +1,13 @@
-#Fri Jan 06 12:36:58 IST 2023
-base.2=/Users/akashrana/Documents/Client project/keyurbhai/dmt/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex
+#Tue Jan 17 14:29:57 IST 2023
+path.3=classes4.dex
 path.2=classes3.dex
-base.1=/Users/akashrana/Documents/Client project/keyurbhai/dmt/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
 path.1=classes2.dex
+path.0=classes.dex
+base.3=/Users/akashrana/Documents/Client project/keyurbhai/dmt/build/app/intermediates/dex/debug/mergeDexDebug/classes4.dex
+base.2=/Users/akashrana/Documents/Client project/keyurbhai/dmt/build/app/intermediates/dex/debug/mergeDexDebug/classes3.dex
+base.1=/Users/akashrana/Documents/Client project/keyurbhai/dmt/build/app/intermediates/dex/debug/mergeDexDebug/classes2.dex
 base.0=/Users/akashrana/Documents/Client project/keyurbhai/dmt/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-path.0=classes.dex
