@@ -1,50 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dmt.patientapp"
-    android:versionCode="1"
-    android:versionName="1.0.0" >
+    android:versionCode="5"
+    android:versionName="1.0.5" >
 
     <uses-sdk
         android:minSdkVersion="19"
         android:targetSdkVersion="33" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <!-- Request legacy Bluetooth permissions on older android devices. -->
+
+
+    <!-- <uses-permission -->
+    <!-- android:name="android.permission.BLUETOOTH_SCAN" -->
+    <!-- android:usesPermissionFlags="neverForLocation" /> -->
+    <!-- <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" /> -->
+    <!-- <uses-permission -->
+    <!-- android:name="android.permission.BLUETOOTH" -->
+    <!-- android:maxSdkVersion="30" /> -->
+    <!-- <uses-permission -->
+    <!-- android:name="android.permission.BLUETOOTH_ADMIN" -->
+    <!-- android:maxSdkVersion="30" /> -->
+    <!-- <uses-permission -->
+    <!-- android:name="android.permission.ACCESS_COARSE_LOCATION" -->
+    <!-- android:maxSdkVersion="30" /> -->
+    <!-- <uses-permission -->
+    <!-- android:name="android.permission.ACCESS_FINE_LOCATION" -->
+    <!-- android:maxSdkVersion="30" /> -->
+
+
+    <!-- Before Android 12 (but still needed location, even if not requested) -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission
         android:name="android.permission.BLUETOOTH"
         android:maxSdkVersion="30" />
     <uses-permission
         android:name="android.permission.BLUETOOTH_ADMIN"
         android:maxSdkVersion="30" />
-    <!--
-         Needed only if your app looks for Bluetooth devices.
-         If your app doesn't use Bluetooth scan results to derive physical
-         location information, you can strongly assert that your app
-         doesn't derive physical location.
-    -->
+    <!-- From Android 12 -->
     <uses-permission
         android:name="android.permission.BLUETOOTH_SCAN"
         android:usesPermissionFlags="neverForLocation" />
-    <!--
-  Needed only if your app makes the android device discoverable to
-  Bluetooth devices.
-    -->
-    <!--
-  <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"
-  />
-    -->
-    <!--
-  Needed only if your app communicates with already-paired Bluetooth
-  devices.
-    -->
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-    <!--
-  Needed only if your app uses Bluetooth scan results to derive physical
-  location.
-    -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!-- Required to provide the web interface -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -84,6 +83,12 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="no.nordicsemi.android.LOG" />
+
+    <permission
+        android:name="com.dmt.patientapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.dmt.patientapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:name="android.app.Application"
@@ -196,6 +201,18 @@
                 <action android:name="no.nordicsemi.android.support.v18.ACTION_FOUND" />
             </intent-filter>
         </receiver>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.dmt.patientapp.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
 
         <uses-library
             android:name="androidx.window.extensions"

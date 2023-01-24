@@ -1,3 +1,5 @@
+androidx/activity/result/contract/ActivityResultContracts$CreateDocument.class
+androidx/activity/result/contract/ActivityResultContracts$TakeVideo.class
 androidx/annotation/AnimRes.class
 androidx/annotation/AnimatorRes.class
 androidx/annotation/AnyRes.class
@@ -74,6 +76,13 @@ androidx/annotation/XmlRes.class
 androidx/annotation/experimental/Experimental$Level.class
 androidx/annotation/experimental/Experimental.class
 androidx/annotation/experimental/UseExperimental.class
+androidx/appcompat/app/ActionBar$DisplayOptions.class
+androidx/appcompat/app/ActionBar$NavigationMode.class
+androidx/appcompat/app/AppCompatDelegate$NightMode.class
+androidx/appcompat/graphics/drawable/DrawerArrowDrawable$ArrowDirection.class
+androidx/appcompat/view/menu/CascadingMenuPopup$HorizPosition.class
+androidx/appcompat/widget/LinearLayoutCompat$DividerMode.class
+androidx/appcompat/widget/LinearLayoutCompat$OrientationMode.class
 androidx/core/app/CoreComponentFactory$CompatWrapped.class
 androidx/core/app/CoreComponentFactory.class
 androidx/core/app/FrameMetricsAggregator$MetricType.class
@@ -86,6 +95,7 @@ androidx/core/app/NotificationCompat$StreamType.class
 androidx/core/app/RemoteInput$EditChoicesBeforeSending.class
 androidx/core/app/RemoteInput$Source.class
 androidx/core/app/ServiceCompat$StopForegroundFlags.class
+androidx/core/content/ContextCompat$RegisterReceiverFlags.class
 androidx/core/content/PackageManagerCompat$UnusedAppRestrictionsStatus.class
 androidx/core/content/PermissionChecker$PermissionResult.class
 androidx/core/content/pm/PermissionInfoCompat$Protection.class
@@ -112,8 +122,14 @@ androidx/core/view/WindowInsetsAnimationCompat$Callback$DispatchMode.class
 androidx/core/view/WindowInsetsCompat$Type$InsetsType.class
 androidx/core/view/accessibility/AccessibilityEventCompat$ContentChangeType.class
 androidx/core/widget/TextViewCompat$AutoSizeTextType.class
+androidx/emoji2/text/EmojiCompat$CodepointSequenceMatchResult.class
+androidx/emoji2/text/EmojiCompat$LoadStrategy.class
+androidx/emoji2/text/EmojiCompat$ReplaceStrategy.class
+androidx/emoji2/text/EmojiMetadata$HasGlyph.class
+androidx/fragment/app/FragmentStateManagerControl.class
 androidx/lifecycle/Lifecycle$Event.class
 androidx/lifecycle/OnLifecycleEvent.class
+androidx/lifecycle/viewmodel/ViewModelFactoryDsl.class
 androidx/multidex/MultiDex$V14$ElementConstructor.class
 androidx/multidex/MultiDex$V14$ICSElementConstructor.class
 androidx/multidex/MultiDex$V14$JBMR11ElementConstructor.class
@@ -128,6 +144,9 @@ androidx/multidex/MultiDexExtractor$ExtractedDex.class
 androidx/multidex/MultiDexExtractor.class
 androidx/multidex/ZipUtil$CentralDirectory.class
 androidx/multidex/ZipUtil.class
+androidx/resourceinspection/annotation/AppCompatShadowedAttributes.class
+androidx/resourceinspection/annotation/Attribute$IntMap.class
+androidx/resourceinspection/annotation/Attribute.class
 androidx/room/AutoMigration.class
 androidx/room/BuiltInTypeConverters$State.class
 androidx/room/BuiltInTypeConverters.class
@@ -364,12 +383,10 @@ kotlin/collections/ArraysKt___ArraysJvmKt.class
 kotlin/collections/ArraysKt___ArraysKt.class
 kotlin/collections/CollectionsKt__MutableCollectionsJVMKt.class
 kotlin/collections/CollectionsKt__MutableCollectionsKt.class
+kotlin/collections/CollectionsKt___CollectionsJvmKt.class
 kotlin/collections/CollectionsKt___CollectionsKt.class
-kotlin/collections/MapsKt___MapsKt.class
-kotlin/collections/UByteIterator.class
-kotlin/collections/UIntIterator.class
-kotlin/collections/ULongIterator.class
-kotlin/collections/UShortIterator.class
+kotlin/collections/MapsKt___MapsJvmKt.class
+kotlin/collections/unsigned/UArraysKt___UArraysJvmKt.class
 kotlin/collections/unsigned/UArraysKt___UArraysKt.class
 kotlin/contracts/ExperimentalContracts.class
 kotlin/coroutines/RestrictsSuspension.class
@@ -381,6 +398,7 @@ kotlin/internal/DynamicExtension.class
 kotlin/internal/Exact.class
 kotlin/internal/HidesMembers.class
 kotlin/internal/InlineOnly.class
+kotlin/internal/IntrinsicConstEvaluation.class
 kotlin/internal/LowPriorityInOverloadResolution.class
 kotlin/internal/NoInfer.class
 kotlin/internal/OnlyInputTypes.class
@@ -422,7 +440,7 @@ kotlin/ranges/RangesKt___RangesKt.class
 kotlin/reflect/full/KClasses.class
 kotlin/reflect/jvm/ExperimentalReflectionOnLambdas.class
 kotlin/reflect/jvm/internal/impl/descriptors/PackageFragmentProvider.class
-kotlin/sequences/SequencesKt__SequenceBuilderKt.class
+kotlin/sequences/SequencesKt___SequencesJvmKt.class
 kotlin/sequences/SequencesKt___SequencesKt.class
 kotlin/text/CharsKt__CharJVMKt.class
 kotlin/text/StringsKt__StringBuilderJVMKt.class
@@ -430,6 +448,7 @@ kotlin/text/StringsKt__StringBuilderKt.class
 kotlin/text/StringsKt__StringNumberConversionsJVMKt.class
 kotlin/text/StringsKt__StringsJVMKt.class
 kotlin/text/StringsKt__StringsKt.class
+kotlin/text/StringsKt___StringsJvmKt.class
 kotlin/text/StringsKt___StringsKt.class
 kotlin/text/Typography.class
 kotlin/time/Duration$Companion.class

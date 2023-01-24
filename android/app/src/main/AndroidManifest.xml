@@ -1,31 +1,38 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.dmt.patientapp">
-    <uses-permission android:name="android.permission.INTERNET"/>
 
     <!-- Request legacy Bluetooth permissions on older android devices. -->
-    <uses-permission android:name="android.permission.BLUETOOTH"
-        android:maxSdkVersion="30" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"
-        android:maxSdkVersion="30" />
-    <!-- Needed only if your app looks for Bluetooth devices.
-         If your app doesn't use Bluetooth scan results to derive physical
-         location information, you can strongly assert that your app
-         doesn't derive physical location. -->
-    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"
-        android:usesPermissionFlags="neverForLocation" tools:targetApi="s" />
-    <!-- Needed only if your app makes the android device discoverable to
-  Bluetooth devices. -->
-    <!--  <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"
-  />-->
-    <!-- Needed only if your app communicates with already-paired Bluetooth
-  devices. -->
-    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-    <!-- Needed only if your app uses Bluetooth scan results to derive physical
-  location. -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
+<!--    <uses-permission-->
+<!--        android:name="android.permission.BLUETOOTH_SCAN"-->
+<!--        android:usesPermissionFlags="neverForLocation" />-->
+<!--    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />-->
+<!--    <uses-permission-->
+<!--        android:name="android.permission.BLUETOOTH"-->
+<!--        android:maxSdkVersion="30" />-->
+<!--    <uses-permission-->
+<!--        android:name="android.permission.BLUETOOTH_ADMIN"-->
+<!--        android:maxSdkVersion="30" />-->
+<!--    <uses-permission-->
+<!--        android:name="android.permission.ACCESS_COARSE_LOCATION"-->
+<!--        android:maxSdkVersion="30" />-->
+<!--    <uses-permission-->
+<!--        android:name="android.permission.ACCESS_FINE_LOCATION"-->
+<!--        android:maxSdkVersion="30" />-->
+
+    <!--Before Android 12 (but still needed location, even if not requested)-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+    <!--From Android 12-->
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!-- Required to provide the web interface -->

@@ -194,7 +194,6 @@ class _DeviceConnectState extends State<DeviceConnect> {
                 }else{
                  // print(_selectedDevices);
                   try{
-
                    if(Platform.isIOS){
                      await platform.invokeMethod('connectDevice',<String,String>{'name' : _selectedDevices});
                      Navigator.pushNamed(context, Routes.deviceSync,arguments: { ConstLables.device_name : _selectedDevices});
@@ -202,7 +201,9 @@ class _DeviceConnectState extends State<DeviceConnect> {
                      var isConnect = await platform.invokeMethod(
                          'connectDevice',
                          <String, String>{'name': _selectedDevices});
-                     if (isConnect == 0) {
+                     print("isConnect : ");
+                     print(isConnect);
+                     if (isConnect == 1 || isConnect == 2 || isConnect) {
                        Navigator.pushNamed(context, Routes.deviceSync,
                            arguments: {
                              ConstLables.device_name: _selectedDevices

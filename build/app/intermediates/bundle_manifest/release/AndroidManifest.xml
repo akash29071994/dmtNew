@@ -1,33 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dmt.patientapp"
-    android:versionCode="1"
-    android:versionName="1.0.0" >
+    android:versionCode="5"
+    android:versionName="1.0.5" >
 
     <uses-sdk
         android:minSdkVersion="19"
         android:targetSdkVersion="33" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Request legacy Bluetooth permissions on older android devices. -->
+
+
+    <!-- <uses-permission -->
+    <!-- android:name="android.permission.BLUETOOTH_SCAN" -->
+    <!-- android:usesPermissionFlags="neverForLocation" /> -->
+    <!-- <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" /> -->
+    <!-- <uses-permission -->
+    <!-- android:name="android.permission.BLUETOOTH" -->
+    <!-- android:maxSdkVersion="30" /> -->
+    <!-- <uses-permission -->
+    <!-- android:name="android.permission.BLUETOOTH_ADMIN" -->
+    <!-- android:maxSdkVersion="30" /> -->
+    <!-- <uses-permission -->
+    <!-- android:name="android.permission.ACCESS_COARSE_LOCATION" -->
+    <!-- android:maxSdkVersion="30" /> -->
+    <!-- <uses-permission -->
+    <!-- android:name="android.permission.ACCESS_FINE_LOCATION" -->
+    <!-- android:maxSdkVersion="30" /> -->
+
+
+    <!-- Before Android 12 (but still needed location, even if not requested) -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission
         android:name="android.permission.BLUETOOTH"
         android:maxSdkVersion="30" />
     <uses-permission
         android:name="android.permission.BLUETOOTH_ADMIN"
         android:maxSdkVersion="30" />
-
-    <!-- API 31+ -->
-    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <!-- From Android 12 -->
     <uses-permission
         android:name="android.permission.BLUETOOTH_SCAN"
         android:usesPermissionFlags="neverForLocation" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- Required to provide the web interface -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- Required to run keep-alive service when targeting API 28 or higher -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!-- For BP5S Internet communication and detect/manage Wi-Fi state -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
 
     <!-- Provide required visibility configuration for API level 30 and above -->
     <queries>
@@ -47,19 +76,19 @@
             <data android:mimeType="*/*" />
         </intent>
     </queries>
-
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/> -->
     <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to run keep-alive service when targeting API 28 or higher -->
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="no.nordicsemi.android.LOG" />
+
+    <permission
+        android:name="com.dmt.patientapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.dmt.patientapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:name="android.app.Application"
@@ -99,7 +128,7 @@
 
         <service
             android:name="com.vivalnk.sdk.ble.dfu.DfuService"
-            android:exported="true" >
+            android:exported="false" >
             <intent-filter>
                 <action android:name="no.nordicsemi.android.action.DFU_UPLOAD" />
 
@@ -111,14 +140,6 @@
             android:name="flutterEmbedding"
             android:value="2" />
 
-        <activity android:name="com.vivalnk.sdk.ble.ota.NotificationActivity" /> <!-- //for BP5S -->
-        <service
-            android:name="com.ido.ble.bluetooth.DeviceConnectService"
-            android:exported="false" />
-        <service
-            android:name="com.ido.ble.dfu.DFUService"
-            android:enabled="true"
-            android:exported="false" />
         <!--
     Service used to scan in background to emulate scanning with
     PendingIntent on Android 4.3 - 7.x. Service will scan in background with given
@@ -141,10 +162,57 @@
             </intent-filter>
         </receiver>
 
+        <activity android:name="com.vivalnk.sdk.ble.ota.NotificationActivity" /> <!-- //for BP5S -->
+        <service
+            android:name="com.ido.ble.bluetooth.DeviceConnectService"
+            android:exported="false" />
+        <service
+            android:name="com.ido.ble.dfu.DFUService"
+            android:enabled="true"
+            android:exported="false" />
+
         <activity
             android:name="io.flutter.plugins.urllauncher.WebViewActivity"
             android:exported="false"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+        <!--
+		Service used to scan in background to emulate scanning with
+		PendingIntent on Android 4.3 - 7.x. Service will scan in background with given
+		settings and filters.
+        -->
+        <service
+            android:name="no.nordicsemi.android.support.v18.scanner.ScannerService"
+            android:exported="false" />
+        <!--
+		The receiver used to scan with PendingIntent on Android 8+.
+		It will translate results from android.bluetooth.le package to
+		no.nordicsemi.android.support.v18, apply filters or perform batching,
+		depending on the settings.
+        -->
+        <receiver
+            android:name="no.nordicsemi.android.support.v18.scanner.PendingIntentReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="no.nordicsemi.android.support.v18.ACTION_FOUND" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.dmt.patientapp.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
 
         <uses-library
             android:name="androidx.window.extensions"

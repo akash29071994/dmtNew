@@ -1,4 +1,7 @@
 package com.dmt.patientapp;
+import android.Manifest;
+import android.os.Build;
+
 import androidx.annotation.NonNull;
 
 import com.google.gson.JsonArray;
@@ -17,6 +20,7 @@ import com.vivalnk.sdk.common.ble.scan.ScanOptions;
 import com.vivalnk.sdk.model.Device;
 import com.vivalnk.sdk.utils.DateFormat;
 import com.vivalnk.sdk.utils.GSON;
+import androidx.core.app.ActivityCompat;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -41,6 +45,16 @@ public class MainActivity extends FlutterActivity{
     JSONArray jsonArray=new JSONArray();
     String oximetryid="";
     String studysession="";
+    private static final String[] BLE_PERMISSIONS = new String[]{
+            Manifest.permission.ACCESS_COARSE_LOCATION,
+            Manifest.permission.ACCESS_FINE_LOCATION
+    };
+
+
+    private static final String[] ANDROID_12_BLE_PERMISSIONS = new String[]{
+            Manifest.permission.BLUETOOTH_SCAN,
+            Manifest.permission.BLUETOOTH_CONNECT
+    };
 
     SimpleDateFormat obj = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS'Z'");
     // we create instance of the Date and pass milliseconds to the constructor
@@ -57,11 +71,17 @@ public class MainActivity extends FlutterActivity{
                             Log.e("method",call.method.toString());
 
                             if (call.method.equals("init")) {
+                                Log.e("init method In","init method In");
                                 VitalClient.getInstance().init(this.getApplicationContext());
                                 if (BuildConfig.DEBUG) {
                                     VitalClient.getInstance().openLog();
                                     VitalClient.getInstance().allowWriteToFile(true);
                                 }
+                                int requestCode=202;
+                                if (Build.VERSION.SDK_INT < 31)
+                                    ActivityCompat.requestPermissions(this, ANDROID_12_BLE_PERMISSIONS, requestCode);
+                                else
+                                    ActivityCompat.requestPermissions(this, BLE_PERMISSIONS, requestCode);
                                 startScan();
                                 result.success(true);
 
@@ -75,7 +95,8 @@ public class MainActivity extends FlutterActivity{
                                     connectDeviceAndroid(arg.get("name"),device);
                                     openFlashData(device);
                                     int isConnect=checkeIsConnect(device);
-                                    result.success(isConnect);
+//                                    result.success(isConnect);
+                                    result.success(true);
                                 }else {
                                     result.success(false);
                                 }
@@ -179,15 +200,14 @@ public class MainActivity extends FlutterActivity{
 
 
     private void startScan() {
-        deviceList = new ArrayList<>();
-
+        deviceList = new ArrayList<Device>();
+        Log.e("Start scan In","Start scan In");
         VitalClient.getInstance().startScan(new ScanOptions.Builder().build(), new BluetoothScanListener() {
             @Override
             public void onDeviceFound(Device device) {
                 deviceList.add(device);
                 Log.d(TAG, "find device: " + GSON.toJson(device));
             }
-
             @Override
             public void onStop() {
                 Log.d(TAG, "scan stop, find " + deviceList.size() + " devices");
