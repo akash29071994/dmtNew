@@ -14,9 +14,9 @@
       proguardRules="proguard.txt"/>
   <library
       name="__local_aars__:D:\dmtNew\android\app\libs\sdk-core-3.0.0.2193.aar:unspecified@jar"
-      jars="C:\Users\DELL\.gradle\caches\transforms-3\ee4ddfac5a4cfdeea393f6b6cc43b434\transformed\jetified-sdk-core-3.0.0.2193\jars\classes.jar"
+      jars="C:\Users\DELL\.gradle\caches\transforms-3\a274071f1f181d19fc81c436043877a9\transformed\jetified-sdk-core-3.0.0.2193\jars\classes.jar"
       resolved="__local_aars__:D:\dmtNew\android\app\libs\sdk-core-3.0.0.2193.aar:unspecified"
-      folder="C:\Users\DELL\.gradle\caches\transforms-3\ee4ddfac5a4cfdeea393f6b6cc43b434\transformed\jetified-sdk-core-3.0.0.2193"
+      folder="C:\Users\DELL\.gradle\caches\transforms-3\a274071f1f181d19fc81c436043877a9\transformed\jetified-sdk-core-3.0.0.2193"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
